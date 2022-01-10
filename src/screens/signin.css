@@ -1,0 +1,23 @@
+.signin-container{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbb3a5;
+}
+
+.signin-container .logo-container{
+    margin-bottom: 15px;
+}
+.signin-container .tagline{
+    color: #ffe5e5;
+    text-align: center;
+}
+
+.signin-container button{
+    background-color: #000;
+}
+.signin-container button:hover{
+    background-color: rgb(34, 34, 34);
+}

@@ -1,0 +1,27 @@
+.match-page{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    /* grid-template-rows: auto auto 100%; */
+}
+
+.match-section{
+    /* display: grid;
+    grid-template-rows: auto auto 100%; */
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.match-list{
+    flex: 1 1 auto;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: 0px;
+}
+
+.match-list::-webkit-scrollbar{
+    display: none;
+}

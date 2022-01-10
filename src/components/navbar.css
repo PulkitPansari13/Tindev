@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    height: 10vh;
+    flex-shrink: 0;
+    /* border-bottom: 1px solid rgb(244, 244, 244); */
+}
+
+.navbar .MuiIconButton-root{
+    color: black;
+}
+
+.nav_logo{
+    width: 10rem;
+    /* height: auto; */
+}

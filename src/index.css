@@ -1,0 +1,34 @@
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+  --main-bg-color: #fb6054;
+  --darker-bg-color: #ec5247;
+}
+
+html{
+    background-color: black;
+    /* background-color: gray; */
+}
+
+
+body{
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    min-height: 100vh;
+    font-family: "Roboto";
+    /* overflow: hidden; */
+}
+
+#root{
+    height: 100vh;
+    overflow: hidden;
+}
